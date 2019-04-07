@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <script src="script.js"></script>
+    <title>Document</title>
+</head>
+<body onload="init()">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 offset-3  mt-5">
+                <div class="alerts"></div>
+                <form action="" name="carRegister" onsubmit="send(event)">
+                    <input type="text" placeholder="Ender Manifacturer" name="Manifacturer" class="form-control">
+                    <input type="text" placeholder="Enter Model" name="Model" class="form-control my-2">
+                    <input type="text" placeholder="Enter Release Year" name="Year" class="form-control">
+                    <input type="hidden" name="id" id="">
+                    <input type="submit" value="Send" class="btn btn-primary mt-2">
+                </form>
+            </div>
+            <div class="col-lg-6 offset-3 mt-5">
+                <h3>Click for editing</h3>
+                <ul class="list-group">
+
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
