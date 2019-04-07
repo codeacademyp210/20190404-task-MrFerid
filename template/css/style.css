@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+
+body{
+    margin: 0;
+    padding: 0;
+    color: #666666;
+}
+
+a,a:hover{
+    text-decoration: none;
+}
+
+a{
+    border-bottom: 1px dotted #666666;
+    transition: color .2s ease 0s;
+    color: #666666;
+}
+
+a:hover{
+    border-bottom: 0;
+    color: #f56276;
+}
+
+h1{
+    font-weight: 400;
+    font-size: 1.7rem;
+    color: #444444;
+    letter-spacing: .4rem;
+}
+
+p{
+    font-weight: 100;
+}
+
+.card-header,.card-footer,.card{
+    background: #fff;
+    border: none;
+}
+
+.button{
+    padding: 1rem 2rem;
+    display: inline-block;
+    width: auto;
+    box-shadow: inset 0 0 0 2px #666666;
+    color: #444444;
+    border: none;
+    border-radius: .3rem;
+    font-size: .75rem;
+    letter-spacing: .3rem;
+    transition: all .4s ease;
+    text-transform: uppercase;
+}
+
+.button:hover{
+    box-shadow: inset 0 0 0 2px #e84359;
+    color: #e84359;
+}
+
+.button:active{
+    background-color: #ffe4e8;
+}
+
+/* --------- header  ---------- */
+
+.slider>div{
+    overflow: hidden;
+    position: relative;
+    height: 60vh;
+    width: 100%;
+}
+
+.slider>div::after{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.096);
+    left: 0;
+    top: 0;
+}
+
+.slider img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+}
+
+.slider-content{
+    color: #fff;
+    padding: 50px auto;
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    top: 50%;
+    z-index: 2;
+    transform: translate(-50%,-50%);
+}
+
+.slider-content h1{
+    border-bottom: solid 2px #ffffff;
+    padding: 0 1rem 1.5rem 1rem;
+    font-family: "Pacifico", cursive;
+    font-weight: 200;
+    font-size: 4rem;
+    color: #fff;
+}
+
+.slider-content a{
+    color: rgba(255, 255, 255, 0.75);
+    border-color: #fff;
+}
+
+.slider-content a:hover{
+    color: #f56276;
+}
+
+.slider-content p{
+    text-transform: uppercase;
+    letter-spacing: .3rem;
+    padding: 1rem 1rem;
+    font-size: .8rem;
+    color: rgba(255, 255, 255, 0.75);
+    font-weight: 600;
+}
+
+/* --------- about section  ---------- */
+
+.about-section .about-content{
+    margin-left: 15px;
+    margin-right: 15px;
+    background: #fff;
+}
+
+.about-section .card{
+    background: transparent;
+    width: 60%;
+    padding: 3rem;
+    margin: 0 auto;
+}
+
+.about-section .container{
+    padding: 3rem 0; 
+    text-align: center;
+}
+
+.round-icon{
+    border: 2px solid #666666;
+    display: inline-block;
+    height: 6.5rem;
+    width:  6.5rem;
+    border-radius: 100%;
+    position: relative;
+}
+
+.round-icon i{
+    font-size: 2.5rem;
+    line-height: 6rem;
+    color: #666666;
+}
+
+/* --------- products section  ---------- */
+
+.products-section .card{
+    margin: 15px 0;
+    padding-bottom: 2rem;
+    overflow: hidden;
+}
+
+.products-section .card-text{
+    line-height: 1.8rem;
+}
+
+.card-img-top{
+    transition: all .2s ease;
+    height: 17rem;
+    overflow: hidden;
+    position: relative;
+}
+
+.card-img-top img{
+    transition: all .2s ease;
+    object-fit: cover;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left:0;
+    top:0;
+}
+
+.card-img-top h1{
+    position: absolute;
+    z-index: 2;
+    font-size: 1.2rem;
+    width: 100%;
+    text-align: center;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.card-img-top::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.253);
+    top: 0;
+    left:0;
+}
+
+.card-img-top:hover img{
+    transform: scale(1.1);
+}
+
+/* --------- footer  ---------- */
+
+footer{
+    padding: 5rem 0 3rem 0;
+}
+
+footer .card{
+    padding-bottom: 5rem;
+}
+
+footer .card::after{
+    content: "";
+    position: absolute;
+    height: 2.5px;
+    width: 18%;
+    background: #666666;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+footer .card p{
+    width: 60%;
+    line-height: 2rem;
+    font-size: 1rem;
+}
+
+.icons{
+    padding: 4.2rem 0 2rem 0;
+}
+
+.icons a{
+    border: none;
+    font-size: 1.1rem;
+}
+
+.icons a+a{
+    margin-left: 1.2rem;
+}
+
+.copy{
+    font-weight: 100;
+}

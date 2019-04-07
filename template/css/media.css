@@ -1,0 +1,192 @@
+
+    
+    /*---------------------------------------------------
+     Old desktops / Ipad pro (Between laptop and tabs)   |
+    ----------------------------------------------------*/
+    
+    @media (min-width: 1023px) and (max-width: 1500px){
+
+        /* products section */
+        .products-section .card-img-top{
+            height: 14rem;
+        }
+        
+    } 
+    
+    /*------------------------------
+    |         Tablets Ipad/Tab      |
+    -------------------------------*/
+    
+    @media (min-width: 768px) and (max-width: 1024px){
+        /* slider section */
+
+        .slider-content{
+            width: 80%;
+            top: 55%;
+        }
+
+        .slider>div{
+            height: 75vh;
+        }
+
+        .slider-content p{
+            color: #fff;
+        }
+        /* about section */
+
+        .about-section{
+            padding: 0rem 0;
+        }
+
+        .about-section .container{
+            padding: 1rem 0; 
+        }
+
+        .about-section .card{
+            padding: 2rem 0;
+            width: 70%;
+            text-align: center;
+        }
+
+        .about-section h1{
+            line-height: 4rem;
+        }
+
+        /* products section */
+
+        .card-img-top{
+            height: 25rem;
+        }
+                
+    }
+    
+    
+    /* --------------------------------------------
+    | Phone version Iphone X/6/7/8 Galaxy / Nexux  |
+    ----------------------------------------------*/
+    
+    @media (min-width: 320px) and (max-width: 480px) {
+
+        h1{
+            font-size: 1rem;
+        }
+        
+        .button{
+            display: block;
+            padding: .8rem 2rem;
+            letter-spacing: .2rem;
+        }
+
+        /* header */
+        .slider-content{
+            width: 80%;
+            top: 55%;
+        }
+
+        .slider>div{
+            height: 75vh;
+        }
+
+        .slider-content p{
+            color: #fff;
+        }
+
+        .slider-content h1{
+            font-size: 2.5rem;
+            letter-spacing: .05rem;
+            padding: 1rem 1rem;
+            padding: 0 1rem 1rem 1rem;
+        }
+
+        /* About */
+
+        .about-section .container{
+            padding: 1rem 0; 
+        }
+
+        .about-section .card{
+            padding: 1rem 0;
+            width: 100%;
+        }
+
+        .about-section h1{
+            line-height: 2rem;
+        }
+
+        .about-section .card-body p{
+            line-height: 1.5rem;
+            font-size: .9rem;
+            color: black;
+        }
+
+        .round-icon{
+            height: 5rem;
+            width:  5rem;
+        }
+
+        .round-icon i{
+            font-size: 2rem;
+            line-height: 5rem;
+        }
+
+        /* products section */
+
+        .products-section .card-img-top{
+            height: 12rem;
+        }
+
+        .card-img-top h1{
+            font-size: 1rem;
+        }
+
+        .products-section .card-body{
+            padding: 0 1rem;
+        }
+
+        .products-section .card-body p{
+            text-align: center;
+        }
+
+        .products-section .col-12{
+            margin-top: -1rem;
+        }
+
+        /* footer */
+
+        footer{
+            padding: .8rem 0 1rem 0;
+        }
+
+        footer .card{
+            padding-bottom: 2.5rem;
+        }
+
+        footer .card::after{
+            width: 25%;
+            height: 2px;
+        }
+
+        footer .card p{
+            width: 90%;
+            font-size: .9rem;
+            color: #000;
+            line-height: 1.8rem;
+        }
+
+        footer .card-title{
+            line-height: 1.8rem;
+        }
+
+        .icons{
+            padding: 2.2rem 0 2rem 0;
+        }
+
+        .icons a{
+            font-size: .9rem;
+        }
+
+        .icons a+a{
+            margin-left: 1rem;
+        }
+    }
+    
